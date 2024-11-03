@@ -1,0 +1,11 @@
+@media only screen and (max-width: 800px) {
+  .home_phra {
+    font-weight: 400;
+  }
+  .chat-left {
+    display: none;
+  }
+  .chat-right {
+    display: block;
+  }
+}

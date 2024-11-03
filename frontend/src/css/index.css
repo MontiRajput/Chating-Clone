@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeee;
+}
+.logo-container {
+  position: relative;
+  display: inline-block;
+}
+.chat-right {
+  display: none;
+}
+
+/* Style for the overlay text */
+.logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px; /* Adjust size as needed */
+  color: #cc4c69; /* Text color */
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Shadow for better readability */
+  z-index: 1;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.home_head {
+  font-weight: bold;
+  color: #6a1e55;
+  font-size: "50px";
+}
+.home_phra {
+  color: #3b1c32;
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.fa-user,
+.fa-lock {
+  font-size: 60px;
+  color: #00b4d8;
+}
+span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00b4d8;
+}
+.nav-link {
+  margin-left: 40px;
+}
+.navlogo {
+  height: 80px;
+  object-fit: cover;
+}
+
+.navbar-section {
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  padding: 0px;
+  background-color: #eee;
+  box-shadow: 1px 10px 10px rgba(54, 54, 54, 0.088);
+}
+.login-btn {
+  background-color: #cc4c69;
+}
+ul {
+  line-height: 50px;
+  display: flex;
+  list-style: none;
+  font-size: 1.2rem;
+  margin-bottom: 0px;
+}
+li {
+  margin-right: 50px;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.para-footer {
+  color: #f48c06;
+}
+
+.abouthero {
+  height: 400px;
+}
+.about-hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.query-form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 6px;
+}
+.home-para {
+  font-size: 1rem;
+  line-height: 2;
+}
+.all-frontend-hero-con {
+  margin-top: 80px;
+}
+.button-color-changer a {
+  color: white;
+}
+.form-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 3rem;
+}
+.btn-link {
+  color: #4361ee;
+  transition: 0.3s ease;
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: #5aa9e6;
+}
